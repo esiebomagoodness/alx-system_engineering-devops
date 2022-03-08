@@ -1,2 +1,2 @@
 #!/bin/bash
-find -empty
+cut -c1 | paste -s | tr -d"[:blank:]"
